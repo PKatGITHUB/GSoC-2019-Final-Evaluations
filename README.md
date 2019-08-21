@@ -1,7 +1,7 @@
-# Project Title : OAuth module enhancements and SMART apps support
+# Project Title : Migrate RESTful web services from Struts to Spring
 
-##### **Primary Mentor  :** Sanatt Abrol
-##### **Backup Mentor   :** Harsha Kumara
+##### **Primary Mentor  :** Daniela Butano
+##### **Backup Mentor   :** Julie Sullivan
 ##### **Student         :** Prabodh Kotasthane
 ##### [**Project wiki here.**](https://wiki.openmrs.org/display/projects/OAuth+module+enhancements+and+SMART+apps+support)
 
