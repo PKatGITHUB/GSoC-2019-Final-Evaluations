@@ -11,26 +11,28 @@
 + *Swagger Specifications for InterMine and Bio Web-services :* [Swagger Specifications](https://github.com/PKatGITHUB/intermine-ws-spring-swagger)
 
 #### Major Objectives 
-* **Registration of SMART clients/application RESTfully**
-* **Integration of SMART's EHR Launch Flow**
-* **Functionality of Scopes and Launch Context**
+* **Migrate the web-services from Struts (Http servlet-service architecture) to Spring**
+* **Well documented APIs using OpenAPI Specifications**
+* **Functional and unit testing**
 
 #### Extra Credit 
-* **Open Web Application supporting SMART**
+* **Add the APIs to SmartAPI project**
 
 #### Project Overview 
-The main objective of this project was to enhance the OpenMRS OAuth2 Module by extending the support for SMART's EHR launch flow. Also making sure that the module works fine with the OpenMRS reference  application. Adding support for various scopes and launch context was another major task. Finally as a cherry on top, an OWA was made in order to make the EHR launch sequence more user friendly and for easy registration of SMART clients using manifest file. 
+InterMine integrates biological data sources, making it easy to query and analyse data. Presently InterMine uses Struts framework which is outdated. InterMine provides RESTful web-services which facilitates to execute custom or templated queries, search keywords, manage lists, discover metadata, perform enrichment statistics and manage user profiles. The main objective of this project was to migrate the web-services from Struts (Http service-service architecture) to Spring framework and document the APIs with Swagger in compliance with OpenAPI Specifications. OpenAPI specifications are easy to write and Swagger Codegen, which supports Spring, makes the job of developer easy by generating the code stubs which can be modified to render the services. Also Swagger UI provides an interactive documentation which also provides the test calls facility to quickly test-run APIs in your browser only. InterMine currently contains the web application and the web-services bundled under a single module “webapp”. InterMine team is now able to split the webapp module into three modules namely webapp, webservices and webcore. The migration of the webapp was not the part of this project.
 
-##### Registration of SMART clients/application RESTfully
-+ In order to be able to run SMART apps from the EHR, i.e. OpenMRS, user is first needed to register the respective SMART application/client. A SMART client is no different than a normal OAuth client except that it must have a Launch Url which is the SMART app launch url to which the browser would redirect when the user attempts to run SMART apps. This objective involved adding the required new tables for the SMART application, also adding the respective DAOs and Services. The functionality to register and modify a SMART application  was added by modifying the existing REST controllers to manage OAuth Clients.
+##### Migrate the web-services from Struts (Http servlet-service architecture) to Spring
+* Previously the webapp module contained both, the InterMine web application and the web-services. The pre-requirement for this project was to split the webapp into three modules namely webapp, webservices and webcore. This pre-requirement was successfully fulfilled by InterMine team and we had independent webservices module which specifically provide the InterMine web-services.
+The Implementation plan to migrate the web-services is as follows:
+  * A SMART client is no different than a normal OAuth client except that it must have a Launch Url which is the SMART app launch url to which the browser would redirect when the user attempts to run SMART apps. This objective involved adding the required new tables for the SMART application, also adding the respective DAOs and Services. The functionality to register and modify a SMART application  was added by modifying the existing REST controllers to manage OAuth Clients.
 
-##### Integration of SMART's EHR Launch Flow
+##### Well documented APIs using OpenAPI Specifications
 + The EHR launch flow of SMART apps is properly integrated within the module. Now a user may see the list of registered SMART application and is able to run them from within OpenMRS. Whenever the user hits "Run", a random launch value is generated and saved in the database, and passed to the SMART application. The application, at the time of requesting authorization, sends back the launch value which is verified to ensure that the SMART app ran in same session. This objective also involved changing the metadata controller so as it gives the metadata response in proper conformance statement format as the SMART apps require.
 
-##### Functionality of Scopes and Launch Context
+##### Functional and unit testing
 + The support for patient and user specific scopes was added. Also say, if some application is launched requests patient specific scopes, then the token response must involve the patient id of current patient in context. This was done by adding a custom token enhancer which modifies the token response and adds the relevant launch context requested by the SMART application. Right now Patient and User specific scopes are supported but this functionality could be extended further to other FHIR resources.
 
-##### Open Web Application supporting SMART
+##### Add the APIs to SmartAPI project
 + After successfully integrating the EHR launch flow and adding the support of OAuth2 Module with the OpenMRS reference application, now it was needed to make an OWA for extending the support of SMART functionality towards the OpenMRS reference application by displaying the OWA on the user dashboard. SMART OWA also supports registration of SMART applications using manifest file upload. This OWA is generated with the help of OpenMRS OWA generator and developed using HTML, CSS and jQuery.
 
 ##### Other Objectives
