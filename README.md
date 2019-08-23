@@ -3,13 +3,12 @@
 ##### **Primary Mentor  :** Daniela Butano
 ##### **Backup Mentor   :** Julie Sullivan
 ##### **Student         :** Prabodh Kotasthane
-##### [**Project wiki here.**](https://wiki.openmrs.org/display/projects/OAuth+module+enhancements+and+SMART+apps+support)
+##### [**Project idea here.**](http://intermine.org/gsoc/project-ideas/2019/#migrate-restful-web-services-from-struts-to-spring)
 
 ##### Source Code and Downloads 
-+ *Source Code for OpenMRS OAuth2 Module :* [https://github.com/openmrs/openmrs-module-oauth2/tree/gsoc-18](https://github.com/openmrs/openmrs-module-oauth2/tree/gsoc-18)
-+ *Source Code for SMART OWA :* [https://github.com/PKatGITHUB/openmrs-owa-smartowa](https://github.com/PKatGITHUB/openmrs-owa-smartowa)
-+ *Download OpenMRS OAuth2 Module 2.0 .omod file :* [https://github.com/PKatGITHUB/GSoC-2018-Final-Evaluations/blob/master/oauth2-2.0.omod](https://github.com/PKatGITHUB/GSoC-2018-Final-Evaluations/blob/master/oauth2-2.0.omod)
-+ *Download SMART OWA .zip bundle :* [https://github.com/PKatGITHUB/GSoC-2018-Final-Evaluations/blob/master/smartowa.zip](https://github.com/PKatGITHUB/GSoC-2018-Final-Evaluations/blob/master/smartowa.zip)
++ *Source Code for InterMine Web-services Spring Boot Module :* [InterMine Web Services](https://github.com/PKatGITHUB/intermine/tree/ws-spring/intermine/webservices) 
++ *Source Code for Bio Web-services :* [Bio Web Services](https://github.com/PKatGITHUB/intermine/tree/ws-spring/bio/webservices)
++ *Swagger Specifications for InterMine and Bio Web-services :* [Swagger Specifications](https://github.com/PKatGITHUB/intermine-ws-spring-swagger)
 
 #### Major Objectives 
 * **Registration of SMART clients/application RESTfully**
