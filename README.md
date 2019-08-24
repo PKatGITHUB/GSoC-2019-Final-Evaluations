@@ -86,16 +86,9 @@ This was really an awesome project to work upon. This project included developme
 
 #### Resources and Demo Presentations
 
-##### [Community Project Talk thread here.](https://talk.openmrs.org/t/gsoc-2018-oauth-module-enhancements-and-smart-apps-support-project/18012)
-##### [OAuth2 Module documentation here.](https://wiki.openmrs.org/display/projects/OpenMRS+-+OAuth2+Module)
-##### [Weekly Blog Posts here.](https://prabodhgsoc2018.wordpress.com/)
+##### [Community presentation for GSoC 2019.](https://intermineorg.wordpress.com/2019/08/15/call-recording-available-gsoc-2019-final-presentations/)
+##### [My presentation slides.](https://docs.google.com/presentation/d/16fAWfx1IlK9_orVGKg0bcgT576ecY13BWWf8TnKiV0Q/edit?usp=sharing)
+##### [Initial blog post on GSoC 2019.](https://prabodhk.wordpress.com/2019/04/18/gsoc-2019-new-year-new-organisation-new-enthusiasm/)
 
-##### My mid-term presentation video 
-<a href="https://www.youtube.com/watch?v=DqZ5ufwvCZs" target="_blank"><img src="http://img.youtube.com/vi/DqZ5ufwvCZs/0.jpg" 
-alt="GSoC-2018 Mid Term Presentation" width="240" height="180" border="10" /></a>
-
-##### Demo of SMART OWA 
-<a href="https://www.youtube.com/watch?v=v8zonYOZMjM" target="_blank"><img src="http://img.youtube.com/vi/v8zonYOZMjM/0.jpg" 
-alt="Demo of SMART OWA" width="240" height="180" border="10" /></a>
 #### Thoughts on GSoC
->This past summer was the most awesome experience for me. Google Summer of Code with OpenMRS was the most challenging and fun filled coding experience I have ever had. OpenMRS community has been a beautiful community. Everyone here always have a "ready to help!" attitude which makes working very comfortable here. My mentors did helped me a lot whenever I was stuck. Everyday through the summer I had something new, something challenging to do which would push me to do my best and to explore and learn new things. GSoC gave me the exposure to work with such big code base and dynamic tech stack which was really a great experience. Overall, GSoC with OpenMRS made me more confident and helped me in developing technical, communication and managerial skills. Kudos to whole OpenMRS community and GSoC!
+>This past summer was again a great experience for me following the last edition of GSoC. Google Summer of Code with InterMine was an amaing coding and time management experience for me. InterMine community is awesome. People here are always excited and available to help. My mentors did help me promptly whenever needed. This edition of GSoC tested my time management and coding skills as the project was a bit lengthy one. I had new challenges every week which were needed to be resolved quickly. GSoC 2019 agian gave me the exposure to work with a big code base and various different technologies which was really a great experience. Overall, GSoC with InterMine made me more confident and helped me in developing technical, communication and managerial skills. Kudos to whole InterMine community and GSoC!
