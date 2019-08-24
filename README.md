@@ -1,8 +1,8 @@
-# Project Title : Migrate RESTful web services from Struts to Spring
+# Project Title: Migrate RESTful web services from Struts to Spring
 
-##### **Primary Mentor  :** Daniela Butano
-##### **Backup Mentor   :** Julie Sullivan
-##### **Student         :** Prabodh Kotasthane
+##### **Primary Mentor:** Daniela Butano
+##### **Backup Mentor:** Julie Sullivan
+##### **Student:** Prabodh Kotasthane
 ##### [**Project idea here.**](http://intermine.org/gsoc/project-ideas/2019/#migrate-restful-web-services-from-struts-to-spring)
 
 ##### Source Code and Downloads 
